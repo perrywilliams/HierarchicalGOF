@@ -16,7 +16,7 @@ knitr::opts_chunk$set(
 
 ## HierarchicalGOF
 
-This package presents code and analysis used for assessment of goodness-of-fit for Bayesian hierarchical models. The package is meant to accompany the paper "A Guide to Bayesian Model Checking for Ecologists" by Paul B. Conn, Devin S. Johnson, Perry J. Williams, Sharon R. Melin, and Mevin B. Hooten. Preprint is available at [PeerJ](https://peerj.com/preprints/3390.pdf).  
+This package presents code and analysis used for assessment of goodness-of-fit for Bayesian hierarchical models. The package is meant to accompany the paper "A Guide to Bayesian Model Checking for Ecologists" by Paul B. Conn, Devin S. Johnson, Perry J. Williams, Sharon R. Melin, and Mevin B. Hooten. Preprint is available at [PeerJ](https://peerj.com/preprints/3390.pdf).
 
 ## Spatial regression simulations
 
@@ -24,6 +24,11 @@ To run spatial regression simulations, one simply needs to run the script ./inst
 JAGS to run code (note you must install JAGS first; see http://mcmc-jags.sourceforge.net)
 
 ## Sea otter N-mixture example
+The R code to replicate the sea otter analysis described in the
+manuscript is provided in Appendix C of the manuscript. The sea otter data, and other
+necessary functions for the analysis are stored in the HierarchicalGOF
+package. Note this function requires use of RTools to install software
+from a related github repository (So RTools must be installed).
 
 ## California sea lion example
 
